@@ -1,0 +1,50 @@
+{
+  "name": "react-store",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "connected-react-router": "^5.0.1",
+    "firebase": "^5.5.9",
+    "json-server": "^0.14.0",
+    "lodash": "^4.17.11",
+    "npm-run-all": "^4.1.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-notifications-component": "^1.0.0",
+    "react-redux": "^5.1.1",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-toastify": "^4.4.3",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-act": "^1.7.4",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json --port 4000",
+    "startt": "run-p client server"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
+    "react-app-rewired": "^1.6.2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "goods": [
+    { "id": "1", "title": "good1" },
+    { "id": "2", "title": "good1" },
+    { "id": "3", "title": "good1" }
+  ],
+  "categories": [
+    { "id": "1", "title": "Apple" },
+    { "id": "2", "title": "Google" },
+    { "id": "3", "title": "Microsoft" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
